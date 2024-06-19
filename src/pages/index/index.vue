@@ -45,7 +45,7 @@ const triggered = ref<any>(false);
 
 const onConfirm = () => {}
 const onRefresh = () => {
-  console.log("refresh.....");
+  console.log("refresh.");
   setTimeout(() => {
       triggered.value = false;
       console.log("refresh.....",triggered.value);

@@ -1,0 +1,78 @@
+{
+	"easycom": {
+		"autoscan": true,
+		"custom": {
+			"^uni-(.*)": "@dcloudio/uni-ui/lib/uni-$1/uni-$1.vue",
+			"^My(.*)": "@/components/My$1.vue"
+		}
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/goods/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/profile/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/school/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "选择学校"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "默认title",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#27ba9b",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+        "iconPath": "static/tabs/home_default.png",
+        "selectedIconPath": "static/tabs/home_selected.png"
+			},
+			{
+				"pagePath": "pages/category/index",
+				"text": "分类",
+        "iconPath": "static/tabs/category_default.png",
+        "selectedIconPath": "static/tabs/category_selected.png"
+			},
+			{
+				"pagePath": "pages/profile/index",
+				"text": "我的",
+        "iconPath": "static/tabs/user_default.png",
+        "selectedIconPath": "static/tabs/user_selected.png"
+			}
+		]
+	}
+}

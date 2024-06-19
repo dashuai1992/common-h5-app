@@ -48,7 +48,7 @@ const onRefresh = () => {
   console.log("refresh.");
   setTimeout(() => {
       triggered.value = false;
-      console.log("refresh.....",triggered.value);
+      console.log("refresh..",triggered.value);
   }, 3000);
 }
 const onRestore = () => {

@@ -22,7 +22,7 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 
-const images = ref(["@/static/images/rust-01-title.jpg","@/static/images/bg3.png"]);
+const images = ref(["https://dashuai1992.github.io/common-h5-app/static/images/rust-01-title.jpg","https://dashuai1992.github.io/common-h5-app/static/images/bg3.png"]);
 
 const viewCount = ref(643);
 
@@ -30,7 +30,7 @@ const onTapImage = (url: string) => {
   console.log(url);
   uni.previewImage({
     current: url,
-    urls: ['@/static/images/rust-01-title.jpg'],
+    urls: images.value,
   });
 }
 

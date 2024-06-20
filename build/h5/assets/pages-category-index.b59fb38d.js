@@ -1,0 +1,1 @@
+import{o as e,c as r,w as s,g as o,f as t}from"./index-9d557532.js";import{_ as a}from"./_plugin-vue_export-helper.1b428a4d.js";const n=a({},[["render",function(a,n){const u=o;return e(),r(u,null,{default:s((()=>[t(" 分类 ")])),_:1})}]]);export{n as default};

@@ -20,11 +20,11 @@ jobs:
       - name: Install and Build 🔧 
         run: |
           npm install
-          npm run build
+          npm run build:h5
 
       - name: Deploy to GitHub Pages 🚀
         id: deployment
         uses: JamesIves/github-pages-deploy-action@v4
         with: 
           branch: gh-pages
-          folder: dist
+          folder: dist/build/h5
